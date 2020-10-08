@@ -21,6 +21,7 @@ let userName = prompt("Enter your first name please. ")
 //should use a number prompt
 let userAge = Number(prompt("Enter your current age in years. "))
 
+// enter switch statement
 switch(true) {
   case (userAge > 20 && userAge < 30):
     alert("You are in your twenties!")
